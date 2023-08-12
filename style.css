@@ -5,14 +5,14 @@
     box-sizing: border-box;
 }
 
-@media screen and (max-width:700px)  {
+@media screen and (max-width:900px)  {
     .anchors,.contactbutton{
         visibility: hidden;
         display: none
     }
     
 }
-@media screen and (min-width:700px){
+@media screen and (min-width:900px){
 
 }
 body{
@@ -48,7 +48,10 @@ body{
     font-weight:900px;
     font-size:18px;
     padding-left:15px;
+}
+.lgtxt:visited,.lgtxt:active,.lgtxt:hover,.lgtxt{
     color:#87bfff;
+    text-decoration:none;
 }
 
 .anchors{
@@ -68,7 +71,22 @@ body{
 .contactbutton{
     display:flex;
     justify-content: flex-end;
-    margin-right:20px ;
+    margin-right:20px;
+}
+.contact:hover{
+    filter:drop-shadow(0 0.2px 1.5px rgb(173, 167, 167));
+}
+.contact{
+    border:3px solid #852fa2;
+    background-color: #bd2b79ff;
+    color:white;
+    border-radius:15px;
+    width:120px;
+    height:40px;
+    font-size:20px;
+    font-weight:300;
+    cursor:pointer;
+    filter:none;
 }
 
 .menu{
@@ -80,3 +98,28 @@ body{
     align-items: center;
 }
 
+.topshadow{
+    width:100vw;
+    height:8px;
+    background-color: #b7b7b7;
+}
+
+.welcomewrap{
+    width:100%;
+    height:auto;
+    background-color:rgba(207,226,243,40);
+    display:flex;
+}
+
+.oc{
+    margin-top:30px;
+    margin-left:60px;
+    padding-bottom:20px;
+    justify-content: flex-start;
+}
+
+.elementrightoc{
+    display:flex-end;
+    margin-top:60px;
+    padding-left:20px;
+}
