@@ -1,0 +1,82 @@
+*{
+    font-family: 'Lexend', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:700px)  {
+    .anchors,.contactbutton{
+        visibility: hidden;
+        display: none
+    }
+    
+}
+@media screen and (min-width:700px){
+
+}
+body{
+    background-color: rgb(255,255,255);
+}
+
+.toppart{
+    background-color: #3b28ccff;
+    width:100vw;
+}
+.topmenu{
+    display:flex;
+    align-items: center;
+    width:auto;
+    padding-top:12px;
+    padding-bottom:12px;
+
+}
+
+.logowrapper{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.logopfp{
+    object-fit: contain;
+}
+
+.logotext{
+    font-weight:900px;
+    font-size:18px;
+    padding-left:15px;
+    color:#87bfff;
+}
+
+.anchors{
+    display:flex;
+    justify-content:space-evenly;
+    width:500px;
+
+}
+
+.abtxt,.sotxt,.putxt,.artxt{
+    text-decoration:none;
+    color:white;
+    font-size: 20px;
+    font-weight:300;
+}
+
+.contactbutton{
+    display:flex;
+    justify-content: flex-end;
+    margin-right:20px ;
+}
+
+.menu{
+    border:none;
+    outline:none;
+    background:transparent;
+    padding:15px;
+    cursor:pointer;
+    align-items: center;
+}
+
